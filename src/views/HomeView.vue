@@ -1,5 +1,5 @@
 <script setup>
-import About from '../components/about.vue';
+import About from '../components/AboutPage.vue';
 import Contact from '../components/Contact.vue';
 import Hero from '../components/Hero.vue';
 import Navbar from '../components/Navbar.vue';
