@@ -33,7 +33,7 @@
         <div
 
         @click="logout"
-  
+
           class="w-full cursor-pointer aspect-square flex flex-col justify-center gap-1 items-center p-1"
         >
           <img src="../assets/logout.svg" class="w-[40%]" />
@@ -105,7 +105,7 @@
               <img src="../assets/euro.svg" class="w-full h-full p-2" />
             </div>
             <div class="h-8 w-8 bg-blue-100 rounded-full">
-              <img src="../assets/YEN.svg" class="w-full h-full p-2" />
+              <img src="../assets/yen.svg" class="w-full h-full p-2" />
             </div>
           </div>
         </div>
@@ -299,7 +299,7 @@ onMounted(async() => {
     router.push('/login')
   }
 
-  
+
 })
 const logout = ()=>{
   authStore.logout()
