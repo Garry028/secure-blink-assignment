@@ -10,7 +10,7 @@
         <img src="../assets/contact2.svg" class="scale-90" alt="" />
       </div>
 
-      <div class="md:w-[700px] p-6 md:px-20 md:py-10 bg-white shadow-2xl">
+      <div class="md:w-[700px] p-6 md:px-20 md:py-10 bg-white text-black shadow-2xl">
         <h1 class="text-center text-3xl font-bold mb-5">Send Us Message</h1>
         <form
           method="post"
@@ -78,7 +78,7 @@
     </div>
 
     <div
-      class="flex flex-col md:flex-row justify-around text-white gap-y-1 p-2"
+      class="flex flex-col md:flex-row justify-around text-white gap-y-1 py-10 md:py-20 bg-[#0E77FF]"
     >
       <div class="hidden md:block md:w-[459px]">
         Lorem Finaldream rure dolor in reprehenderit in voluptate velit esse
@@ -97,10 +97,10 @@
       </div>
 
       <div class="-pt-8">
-        <h1 class="font-bold border-b-4 md:mb-5 mb-2 pb-3 border-[#21B3FF]">
+        <h1 class="font-bold border-b-4 md:mb-5 mb-2 pb-3 border-[#21B3FF] px-2">
           Our Servies
         </h1>
-        <ul class="text-sm">
+        <ul class="text-sm px-2">
           <li>Web Development</li>
           <li class="pt-2">Mobile Development</li>
           <li class="pt-2">Cloud Technologies</li>
@@ -110,11 +110,11 @@
 
       <div class="-pt-12">
         <h1
-          class="font-bold md:mb-5 mt-3 md:mt-0 pb-3 border-b-4 border-[#21B3FF]"
+          class="font-bold md:mb-5 mt-3 md:mt-0 pb-3 border-b-4 border-[#21B3FF] px-2"
         >
           Our Links
         </h1>
-        <ul class="text-sm">
+        <ul class="text-sm px-2">
           <li>Terms & Conditions</li>
           <li class="pt-2">Privacy Policy</li>
           <li class="pt-2">Imprint</li>
@@ -123,10 +123,10 @@
       </div>
 
       <div class="md:w-56 -pt-11">
-        <h1 class="font-bold border-b-4 border-[#21B3FF] md:mb-5 pb-3">
+        <h1 class="font-bold border-b-4 border-[#21B3FF] md:mb-5 pb-1 md:pb-2 pt-2 md:pt-2 px-2">
           Contact Us
         </h1>
-        <ul class="text-sm">
+        <ul class="text-sm pt-2">
           <li class="flex gap-3">
             <img src="../assets/location.svg" alt="" /> Al. Dummyodl 124/23
             floor 123 Banswara Street, 02-577 India.

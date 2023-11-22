@@ -8,7 +8,7 @@ import Technologies from '../components/Technologies.vue';
 </script>
 
 <template>
-  <div  class="h-auto w-full bg-contain bg-no-repeat bg-[url('../assets/background.svg')]">
+  <div  class="h-auto w-full bg-contain bg-no-repeat bg-[url('../assets/background.svg')] font-Poppins">
     <Navbar/>
     <Hero/>
     <About/>

@@ -1,5 +1,5 @@
 <template>
-    <nav class="bg-[#0e77ff] p-4 md:p-6 text-white">
+    <nav class="bg-[#0e77ff] p-4 md:p-6 text-white container mx-auto">
       <div class="flex justify-between items-center">
         <div class="flex items-center">
           <span class="text-2xl font-semibold">Logo</span>
@@ -13,7 +13,7 @@
             <li class="cursor-pointer">Contact</li>
           </ul>
           <router-link to="/login">
-            <button class="block w-full mt-4 px-4 py-2 bg-white text-black font-semibold rounded-md">
+            <button class="block w-full mt-4 md:mt-0 px-4 py-2 bg-white text-black font-semibold rounded-md">
               Login
             </button>
           </router-link >
@@ -53,7 +53,7 @@
           </button>
         </router-link >
 
-    
+
       </div>
     </nav>
   </template>
