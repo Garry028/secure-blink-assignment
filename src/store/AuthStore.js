@@ -22,14 +22,12 @@ export const useAuthStore = defineStore({
     },
     setUser(user) {
       this.user = user;
-      // Store user in localStorage
       localStorage.setItem("user", JSON.stringify(user));
 
       return true;
     },
     logout() {
       this.user = null;
-      // Remove user from localStorage
       localStorage.removeItem("user");
       return true;
     },
