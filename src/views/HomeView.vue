@@ -8,7 +8,7 @@ import Technologies from '../components/Technologies.vue';
 </script>
 
 <template>
-  <div style="backgroundImage:url('/src/assets/background.svg')" class="h-auto w-full bg-contain bg-no-repeat bg-[url('..')]">
+  <div style="backgroundImage:url('/src/assets/Mask Group 4.png')" class="h-auto w-full bg-contain bg-no-repeat bg-[url('..')]">
     <Navbar/>
     <Hero/>
     <About/>
